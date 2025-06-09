@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soil Carbon Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<header>
+    Soil Carbon Predictor
+</header>
+
+<div class="container">
+
+    <div class="upload-form">
+        <h2>Upload Hyperspectral Image Files</h2>
+        <form id="predict-form" method="post" enctype="multipart/form-data">
+            <label for="hdr_file">HDR File (.hdr):</label>
+            <input type="file" name="hdr_file" accept=".hdr" required>
+
+            <label for="bin_file">BIN File (.bin):</label>
+            <input type="file" name="bin_file" accept=".bin" required>
+
+            <input type="submit" value="Predict Soil Carbon">
+        </form>
+
+        <!-- Loading text -->
+        <div id="loading-text" style="display: none;">
+            Loading, please wait...
+        </div>
+
+        <!-- Loading bar container -->
+        <div id="loading-bar-container" style="display:none; margin-top: 8px;">
+            <div id="loading-bar"></div>
+        </div>
+
+        {% if error %}
+            <p class="error-message">{{ error }}</p>
+        {% endif %}
+    </div>
+
+    {% if rows > 0 %}
+        <div class="map-container">
+            <h2>Predicted Soil Organic Carbon Map</h2>
+            <img src="{{ url_for('static', filename='output_map.png') }}" alt="Soil Carbon Map">
+        </div>
+
+        <div class="query-form">
+            <h2>Query Pixel Value</h2>
+            <form id="query-form">
+                <label for="row">Row (0 to {{ rows-1 }}):</label>
+                <input type="number" name="row" id="row-input" min="0" max="{{ rows-1 }}" required>
+
+                <label for="col">Col (0 to {{ cols-1 }}):</label>
+                <input type="number" name="col" id="col-input" min="0" max="{{ cols-1 }}" required>
+
+                <input type="submit" value="Get Value">
+            </form>
+
+            <div class="predicted-value" id="predicted-value">
+                {% if value %}
+                    <h3>Predicted Value: {{ value }}</h3>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+
+</div>
+
+<script>
+    // Show loading bar on Predict Soil Carbon submit
+    const form = document.getElementById('predict-form');
+    const loadingBarContainer = document.getElementById('loading-bar-container');
+    const loadingText = document.getElementById('loading-text');
+
+    form.addEventListener('submit', () => {
+        loadingBarContainer.style.display = 'block';
+        loadingText.style.display = 'block';
+    });
+
+    // AJAX Get Value form submit
+    const queryForm = document.getElementById('query-form');
+    const predictedValueDiv = document.getElementById('predicted-value');
+
+    if (queryForm) {
+        queryForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent page reload
+
+            const row = document.getElementById('row-input').value;
+            const col = document.getElementById('col-input').value;
+
+            const formData = new FormData();
+            formData.append('row', row);
+            formData.append('col', col);
+
+            fetch('/get_value', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                predictedValueDiv.innerHTML = `<h3>Predicted Value: ${data.value}</h3>`;
+            })
+            .catch(error => {
+                predictedValueDiv.innerHTML = `<h3>Error retrieving value</h3>`;
+                console.error('Error:', error);
+            });
+        });
+    }
+</script>
+
+</body>
+</html>
