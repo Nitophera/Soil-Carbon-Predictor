@@ -1,0 +1,566 @@
+ENVI
+
+description = {
+
+  Registration Result. Method: 1st degree Polynomial w/ nearest neighbor [Wed
+
+  Feb 23 16:05:41 2005]}
+
+samples = 668
+
+lines   = 1852
+
+bands   = 200
+
+header offset = 0
+
+file type = ENVI Standard
+
+data type = 2
+
+interleave = bil
+
+sensor type = Unknown
+
+byte order = 0
+
+x start = 1566
+
+y start = 1911
+
+map info = {UTM, 1.000, 1.000, 340989.099, 8599478.813, 3.0000000000e+001, 3.0000000000e+001, 22, South, WGS-84, units=Meters}
+
+wavelength units = Unknown
+
+band names = {
+
+ Warp (Band 1:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 2:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 3:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 4:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 5:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 6:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 7:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 8:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 9:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 10:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 11:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 12:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 13:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 14:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 15:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 16:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 17:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 18:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 19:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 20:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 21:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 22:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 23:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 24:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 25:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 26:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 27:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 28:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 29:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 30:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 31:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 32:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 33:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 34:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 35:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 36:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 37:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 38:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 39:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 40:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 41:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 42:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 43:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 44:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 45:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 46:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 47:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 48:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 49:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 50:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 51:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 52:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 53:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 54:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 55:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 56:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 57:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 58:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 59:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 60:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 61:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 62:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 63:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 64:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 65:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 66:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 67:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 68:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 69:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 70:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 71:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 72:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 73:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 74:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 75:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 76:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 77:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 78:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 79:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 80:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 81:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 82:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 83:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 84:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 85:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 86:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 87:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 88:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 89:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 90:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 91:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 92:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 93:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 94:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 95:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 96:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 97:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 98:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 99:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 100:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 101:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 102:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 103:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 104:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 105:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 106:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 107:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 108:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 109:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 110:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 111:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 112:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 113:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 114:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 115:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 116:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 117:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 118:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 119:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 120:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 121:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 122:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 123:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 124:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 125:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 126:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 127:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 128:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 129:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 130:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 131:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 132:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 133:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 134:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 135:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 136:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 137:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 138:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 139:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 140:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 141:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 142:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 143:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 144:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 145:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 146:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 147:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 148:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 149:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 150:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 151:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 152:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 153:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 154:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 155:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 156:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 157:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 158:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 159:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 160:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 161:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 162:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 163:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 164:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 165:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 166:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 167:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 168:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 169:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 170:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 171:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 172:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 173:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 174:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 175:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 176:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 177:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 178:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 179:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 180:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 181:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 182:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 183:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 184:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 185:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 186:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 187:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 188:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 189:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 190:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 191:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 192:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 193:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 194:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 195:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 196:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 197:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 198:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 199:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img), 
+
+ Warp (Band 200:tanguro_hyp_071004_bil_sub_acorn_refl_destrspline.img)}
+
+wavelength = {
+
+  396.290009,  406.464996,  416.640015,  426.816010,  436.990997,  447.165985,
+
+  457.342010,  467.516998,  477.691986,  487.868011,  498.042999,  508.217987,
+
+  518.393982,  528.568970,  538.744019,  548.919006,  559.093994,  569.270020,
+
+  579.445007,  589.619995,  599.796021,  609.971008,  620.145996,  630.322021,
+
+  640.497009,  650.672974,  660.848022,  671.021973,  681.198975,  691.372986,
+
+  701.549011,  711.723999,  721.898987,  732.075012,  742.250000,  752.424988,
+
+  762.599976,  772.776001,  782.950989,  793.127014,  803.302002,  813.476990,
+
+  823.651978,  833.828003,  844.002991,  854.179016,  864.353027,  874.528992,
+
+  884.703979,  894.879028,  905.054993,  915.229980,  925.406006,  932.638977,
+
+  942.726990,  952.815979,  962.905029,  972.992981,  983.081970,  993.171021,
+
+ 1003.299988, 1013.299988, 1023.400024, 1033.489990, 1043.589966, 1053.689941,
+
+ 1063.790039, 1073.890015, 1083.989990, 1094.089966, 1104.189941, 1114.189941,
+
+ 1124.280029, 1134.380005, 1144.479980, 1154.579956, 1164.680054, 1174.770020,
+
+ 1184.869995, 1194.969971, 1205.069946, 1215.170044, 1225.170044, 1235.270020,
+
+ 1245.359985, 1255.459961, 1265.560059, 1275.660034, 1285.760010, 1295.859985,
+
+ 1305.959961, 1316.050049, 1326.050049, 1336.150024, 1346.250000, 1356.349976,
+
+ 1366.449951, 1376.550049, 1386.650024, 1396.739990, 1406.839966, 1416.939941,
+
+ 1426.939941, 1437.040039, 1447.140015, 1457.229980, 1467.329956, 1477.430054,
+
+ 1487.530029, 1497.630005, 1507.729980, 1517.829956, 1527.920044, 1537.920044,
+
+ 1548.020020, 1558.119995, 1568.219971, 1578.319946, 1588.420044, 1598.510010,
+
+ 1608.609985, 1618.709961, 1628.810059, 1638.810059, 1648.900024, 1659.000000,
+
+ 1669.099976, 1679.199951, 1689.300049, 1699.400024, 1709.500000, 1719.599976,
+
+ 1729.699951, 1739.699951, 1749.790039, 1759.890015, 1769.989990, 1780.089966,
+
+ 1790.189941, 1800.290039, 1810.380005, 1820.479980, 1830.579956, 1840.579956,
+
+ 1850.680054, 1860.780029, 1870.869995, 1880.979980, 1891.069946, 1901.170044,
+
+ 1911.270020, 1921.369995, 1931.469971, 1941.569946, 1951.569946, 1961.660034,
+
+ 1971.760010, 1981.859985, 1991.959961, 2002.060059, 2012.150024, 2022.250000,
+
+ 2032.349976, 2042.449951, 2052.449951, 2062.550049, 2072.649902, 2082.750000,
+
+ 2092.840088, 2102.939941, 2113.040039, 2123.139893, 2133.239990, 2143.340088,
+
+ 2153.340088, 2163.429932, 2173.530029, 2183.629883, 2193.729980, 2203.830078,
+
+ 2213.929932, 2224.030029, 2234.120117, 2244.219971, 2254.219971, 2264.320068,
+
+ 2274.419922, 2284.520020, 2294.610107, 2304.709961, 2314.810059, 2324.909912,
+
+ 2335.010010, 2345.110107, 2355.209961, 2365.199951, 2375.300049, 2385.399902,
+
+ 2395.500000, 2405.600098}
+
+fwhm = {
+
+ 11.387100, 11.387100, 11.387100, 11.387100, 11.387100, 11.387100, 11.387100,
+
+ 11.387100, 11.387100, 11.378400, 11.353800, 11.313300, 11.258000, 11.190700,
+
+ 11.111900, 11.024500, 10.932100, 10.836800, 10.740700, 10.648200, 10.560700,
+
+ 10.482300, 10.414700, 10.359500, 10.318800, 10.294200, 10.285600, 10.298000,
+
+ 10.334900, 10.390900, 10.459200, 10.532200, 10.600400, 10.656200, 10.693300,
+
+ 10.705800, 10.727600, 10.790700, 10.883300, 10.993800, 11.104400, 11.198000,
+
+ 11.260000, 11.282400, 11.282200, 11.281600, 11.280900, 11.279700, 11.278200,
+
+ 11.277100, 11.276500, 11.275600, 11.275400, 11.045700, 11.045700, 11.045700,
+
+ 11.045700, 11.045700, 11.045700, 11.045700, 11.045700, 11.045700, 11.045100,
+
+ 11.042300, 11.037200, 11.030200, 11.021800, 11.012200, 11.001300, 10.987100,
+
+ 10.973200, 10.957200, 10.941800, 10.924800, 10.906500, 10.888400, 10.869600,
+
+ 10.851300, 10.833500, 10.815400, 10.797900, 10.782200, 10.766300, 10.752000,
+
+ 10.738500, 10.727000, 10.717400, 10.709100, 10.702200, 10.697000, 10.694600,
+
+ 10.693700, 10.694900, 10.699600, 10.705800, 10.716300, 10.728300, 10.743700,
+
+ 10.761200, 10.780700, 10.803400, 10.826700, 10.853400, 10.881800, 10.911000,
+
+ 10.942200, 10.974300, 11.007400, 11.041400, 11.075900, 11.110800, 11.146100,
+
+ 11.181100, 11.215600, 11.249600, 11.282600, 11.314600, 11.346000, 11.375300,
+
+ 11.403700, 11.430200, 11.453800, 11.476000, 11.495800, 11.513300, 11.528600,
+
+ 11.540400, 11.550500, 11.558000, 11.562100, 11.563400, 11.561700, 11.556300,
+
+ 11.547700, 11.534600, 11.519300, 11.500200, 11.478900, 11.454800, 11.427900,
+
+ 11.399400, 11.368800, 11.336600, 11.303600, 11.269600, 11.236300, 11.200700,
+
+ 11.166600, 11.133300, 11.101800, 11.071400, 11.042400, 11.015500, 10.991200,
+
+ 10.969800, 10.950800, 10.935500, 10.923000, 10.913900, 10.908300, 10.906900,
+
+ 10.905700, 10.901300, 10.895100, 10.885400, 10.874000, 10.859100, 10.842900,
+
+ 10.824200, 10.803900, 10.782000, 10.759200, 10.734200, 10.709200, 10.683400,
+
+ 10.657200, 10.631200, 10.605200, 10.580300, 10.556000, 10.532800, 10.510100,
+
+ 10.490400, 10.472200, 10.455200, 10.440800, 10.428500, 10.419700, 10.412900,
+
+ 10.408800, 10.407700, 10.407700, 10.407700, 10.407700, 10.407700, 10.407700,
+
+ 10.407700, 10.407700, 10.407700, 10.407700}
+
